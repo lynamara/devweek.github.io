@@ -1,2 +1,2 @@
-# lilly.github.io
+# lynamara.github.io
 Curriculo do Jornada Dev
