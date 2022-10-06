@@ -6,6 +6,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    background-color: #fcc3ea;
+}
 .resume-contents {
     min-height: 100vh;
     width: 80%;
@@ -33,7 +36,7 @@
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #b02dd0;
 }
 
 .profile .profile-image {
@@ -46,6 +49,9 @@
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1rem 0;
 }
 
 .profession {
@@ -53,22 +59,35 @@
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding-bottom: 1rem;
 }
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
     color: #eeeeee;
     font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding-top: 3rem;
 }
 
 .contact-info ul {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 .contact-info ul li,
 .references ul li {
     padding: .4rem 0;
+    display: flex;
+    align-items: center;
     color: #fcc3ea;
+    letter-spacing: 1px;
+    font-size: 18px;
 }
 
 .contact-info ul li i,
@@ -84,6 +103,11 @@
 .skills ul li p {
     padding: .4rem 0;
     color: #fcc3ea;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
 }
 
 .right-section-contents {
@@ -91,8 +115,11 @@
 }
 
 .right-title {
-    color: #fba6e5;
+    padding-bottom: 2rem;
+    color: #ffffff;
     font-size: 25px;
+    font-weight: bold;
+    padding: 2rem 0;
 }
 
 .gap {
@@ -101,6 +128,7 @@
 .about-me-contents {
     font-size: 20px;
     color: #b7e1ff;
+    padding-bottom: 2rem;
 }
 
 .experience-contents,
@@ -115,25 +143,28 @@
 .exp-company-name,
 .education-school-name,
 .awards-company-name {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .exp-time-period,
-.educationp-time-period,
+.education-time-period,
 .awards-time-period {
-    font-size: 18px;
+    color: #fcc3ea;
+    font-size: 20px;
 }
 
 .exp-position,
 .education-subject,
 .awards-name {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .exp-desc,
 .education-desc,
 .awards-desc {
-    font-size: 16px;
+    color: #fcc3ea;
+    font-size: 20px;
     padding-left: 5px;
+    border-left: 3px solid #050a50;
 }
